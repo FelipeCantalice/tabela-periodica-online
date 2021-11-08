@@ -3,6 +3,8 @@ export interface Elemento {
     atomic_mass?: number
     cpk_hex?: string
     density?: number
+    xpos: number
+    ypos: number
     electron_affinity: number | null
     melt: number | null
     molar_heat: number | null
